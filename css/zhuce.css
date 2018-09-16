@@ -1,0 +1,112 @@
+/*
+* @Author: che
+* @Date:   2018-08-14 21:15:18
+* @Last Modified by:   che
+* @Last Modified time: 2018-09-16 16:02:40
+*/
+
+.box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/49.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+.box .denglu{
+	width: 2.3rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	font-size: 0.36rem;
+	line-height: 0.76rem;
+	text-align: center;
+	background-color: #e5b41c;
+	position: absolute;
+	top: 0.4rem;
+	right: 0;
+	color: #fff;
+}
+.box ul{
+	width: 7.0rem;
+	height: 5.5rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.25rem;
+	padding-left: 0.4rem;
+	padding-top: 0.6rem;
+}
+.box ul li{
+	font-size: 0.36rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #e5b41c;
+}
+.box ul li .yuan{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #ff0042;
+}
+.box ul li .diannao{
+	width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+	line-height: 0.76rem;
+
+}
+.box ul li .diannao i{
+	font-size: 0.54rem;
+}
+.box ul li .text{
+	width: 3.56rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	background-color: #fff;
+	/* padding: 0.16rem 0 0.16rem 0.4rem; */
+	margin: 0 0.1rem;
+	padding-left: 0.2rem;
+	padding-top: 0.08rem;
+}
+.box ul li .text input{
+	border: none;
+	outline: none;
+}
+.box ul li h5{
+	font-size: 0.24rem;
+}
+.box ul li:nth-child(4) .text{
+	width: 2.4rem;
+}
+.box ul li:nth-child(4) input{
+	width: 1rem;
+}
+.box ul li .yanzheng{
+	width: 1.76rem;
+	height: 0.58rem;
+	border-radius: 0.29rem;
+	text-align: center;
+	line-height: 0.58rem;
+	color: #fff;
+	background-color: #e5b41c;  
+	font-size: 0.24rem; 
+}
+.box ul li:nth-child(7){
+	padding-top: 0.4rem;
+	padding-left: 1.74rem;
+}
+.box ul li .zhuce{
+	width: 2.3rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	text-align: center;
+	line-height: 0.78rem;
+	background-color: #c7c7c7;
+	color: #fff;
+}
+.box ul li .zhuce:hover{
+	background-color: #e5b41c;
+}

@@ -1,0 +1,103 @@
+/*
+* @Author: che
+* @Date:   2018-08-12 18:52:22
+* @Last Modified by:   che
+* @Last Modified time: 2018-08-12 22:08:05
+*/
+main{
+	width: 100%;
+	/* height: 15.09rem; */
+}
+main ul{
+	width: 7.5rem;
+	height: 15.09rem;
+	margin: 0 auto;
+}
+main ul li{
+	height: 15.09rem;
+	background-image: url('../img/35.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 7.5rem 15.09rem;
+	position: relative;
+}
+main ul li .red{
+	width: 5.9rem;
+	height: 7.3rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0 auto;
+	top: 4rem;
+	background-color: #fff;
+	border-radius: 0.4rem;
+}
+main ul li .red .top{
+	height: 4.46rem;
+	background-image: url('../img/36.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 4.20rem 2.96rem;
+}
+main ul li .red .bottom{
+	height: 2.84rem;
+	font-size: 0.34rem;
+	padding-left: 0.8rem;
+	background-color: #f7c11b;
+	border-bottom-left-radius: 0.4rem;
+	border-bottom-right-radius: 0.4rem;
+	color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+main ul li .red .bottom h3{
+	margin-top: 0.32rem; 
+	font-size: 0.3rem;
+}
+main ul li .red .bottom .pic{
+	font-size: 0.24rem;
+	margin-top: 0.1rem;
+}
+main ul li .red .bottom .num{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.2rem;
+}
+main ul li .red .bottom .num .jia{
+	width: 0.36rem;
+	height: 0.36rem;
+}
+main ul li .red .bottom .num .count{
+	font-size: 0.3rem;
+	margin: 0 0.1rem;
+	color: #ff0042;
+}
+main ul li .red .bottom .num .jian{
+	width: 0.36rem;
+	height: 0.36rem;
+}
+main ul li .red .bottom .money{
+	font-size: 0.34rem;
+	margin-top: 0.2rem;
+}
+main ul li .red .bottom .fukuan{
+	width: 1.68rem;
+	height: 0.64rem;
+	border-radius: 0.32rem;
+	background-color: #fff;
+	color: #ff0042;
+	line-height: 0.64rem;
+	text-align: center;
+	position: absolute;
+	bottom: 0.43rem;
+	right: 0.32rem;
+	font-size: 0.3rem;
+}
+main ul li .dianji{
+	width: 7rem;
+	height: 2rem;
+	position: absolute;
+	bottom: 0;
+}

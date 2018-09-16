@@ -1,0 +1,114 @@
+*{
+    list-style: none;
+}
+header{
+    width: 7.5rem;
+    /* position: fixed; */
+    top: 0;
+    background-color: orange;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+header ul{
+    width: 7rem;
+/*     height: 6.56rem; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+    overflow: hidden;
+    /* padding: 0.2rem; */
+}
+header ul li{
+    width: 100%;
+    font-size: 0.24rem;
+    color: #fff;
+    background-image: url('../img/43.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3.86rem 0.46rem;
+
+    /* font-size: 0.24rem; */
+    /* text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-weight: bold; */
+
+}
+header ul li:nth-child(1) .back{
+    width: 0.6rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: orange;
+    font-weight: bold;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0.2rem;
+}
+.card{
+    width: 6.16rem;
+    height: 1.12rem;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    background-color: #ffdb35;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.24rem;
+}
+.card .zhaoshang{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin: 0 0.2rem;
+}
+.card .text{
+    color: #fff;
+    font-size: 0.26rem;
+}
+.money{
+    width: 6.16rem;
+/*     height: 1.8rem; */
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.money ul{
+    display: flex;
+    flex-direction: column;
+}
+.money ul li{
+    font-size: 0.44rem;
+    text-align: center;
+    color: #ff0042;
+}
+.money ul li span{
+    font-size: 0.86rem;
+}
+.money ul li:nth-child(2){
+    font-size: 0.24rem;
+}
+.money ul li:nth-child(3){
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+}
+.money ul li:nth-child(4){
+    height: 0.4rem;
+    background-image: url('../img/45.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 4.12rem 0.32rem;
+    margin-top: 0.1rem;
+}
+.money ul li:nth-child(5) .zhiwen{
+    width: 2.94rem;
+    height: 2.7rem;
+    margin-top: 0.2rem;
+}
+.money ul li:nth-child(6){
+    font-size: 0.26rem;
+    margin-top: 0.6rem;
+    font-weight: 100;
+}

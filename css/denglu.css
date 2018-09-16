@@ -1,0 +1,182 @@
+/*
+* @Author: che
+* @Date:   2018-08-14 21:15:18
+* @Last Modified by:   che
+* @Last Modified time: 2018-09-16 16:01:46
+*/
+
+.box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/49.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+.box .denglu{
+	width: 2.3rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	font-size: 0.36rem;
+	line-height: 0.76rem;
+	text-align: center;
+	background-color: #c7c7c7;
+	position: absolute;
+	top: 0.4rem;
+	right: 0;
+	color: #fff;
+}
+.box .denglu:hover{
+	background-color: #e5b41c;
+}
+.box .touxiang{
+	width: 3.46rem;
+	height: 3.46rem;
+	border-radius: 50%;
+	background-image: url('../img/50.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1.6rem;
+	left: 1.8rem;
+
+}
+.box h3{
+	font-size: 0.36rem;
+	color: #e5b41c;
+	position: absolute;
+	top: 5.06rem;
+	left: 2.6rem;
+}
+.box ul{
+	width: 7.0rem;
+	height: 5.5rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.25rem;
+	padding-left: 0.4rem;
+	padding-top: 0.6rem;
+}
+.box ul li{
+	font-size: 0.36rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #e5b41c;
+}
+.box ul li .yuan{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background-color: #ff0042;
+}
+.box ul li .diannao{
+	width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	background-color: #fff;
+	line-height: 0.76rem;
+	text-align: center;
+}
+.box ul li .diannao i{
+	font-size: 0.54rem;
+}
+.box ul li .text{
+	width: 3.56rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	background-color: #fff;
+	/* padding: 0.16rem 0 0.16rem 0.4rem; */
+	margin: 0 0.1rem;
+	padding-left: 0.2rem;
+	padding-top: 0.08rem;
+}
+.box ul li .text input{
+	border: none;
+	outline: none;
+}
+.box ul li h5{
+	font-size: 0.24rem;
+}
+.box ul li:nth-child(5){
+	padding-left: 0.4rem;
+	font-size: 0.24rem;
+	padding-top: 0.2rem;
+}
+.box ul li:nth-child(5) .diannao{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	margin-left: 0.2rem;
+	line-height: 0.3rem;
+}
+.box ul li:nth-child(5) .diannao i{
+	font-size: 0.24rem;
+}
+.box ul li:nth-child(5) p{
+	margin-left: 0.2rem;
+}
+.box ul li:nth-child(6){
+/* 	padding-top: 0.2rem; */
+	padding-left: 1.74rem;
+}
+.box ul li .zhuce{
+	width: 2.3rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	text-align: center;
+	line-height: 0.78rem;
+	background-color: #c7c7c7;
+	color: #fff;
+}
+.box ul li .zhuce:hover{
+	background-color: #e5b41c;
+}
+.box ul li:nth-child(7){
+	font-size: 0.24rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -0.8rem;
+	padding-top: 0.04rem;
+}
+.box ul li:nth-child(7) .yuan{
+	margin-right: 0.04rem;
+
+}
+.box ul li:nth-child(7) .yuan:nth-child(1){
+	opacity: 0.2;
+}
+.box ul li:nth-child(7) .yuan:nth-child(2){
+	opacity: 0.5;
+}
+.box ul li:nth-child(7) .yuan:nth-child(6){
+	opacity: 0.5;
+}
+.box ul li:nth-child(7) .yuan:nth-child(7){
+	opacity: 0.2;
+}
+.box ul li:nth-child(8){
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+	padding-right: 1.8rem;
+}
+.box ul li .wenxin{
+	width: 0.76rem;
+	height: 0.76rem;
+	border-radius: 50%;
+	background-color: green;
+	line-height: 0.76rem;
+	text-align: center;
+}
+.box ul li .wenxin:nth-child(2){
+	background-color: blue;
+}
+.box ul li .wenxin i{
+	color: #fff;
+	font-size: 0.48rem;
+}

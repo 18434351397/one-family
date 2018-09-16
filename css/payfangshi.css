@@ -1,0 +1,141 @@
+*{
+    list-style: none;
+}
+header{
+    width: 7.5rem;
+    height: 6.2rem;
+    /* position: fixed; */
+    top: 0;
+    background-color: orange;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+header ul{
+    width: 7rem;
+/*     height: 6.56rem; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+    overflow: hidden;
+    /* padding: 0.2rem; */
+}
+header ul li{
+    width: 100%;
+    font-size: 0.24rem;
+    color: #fff;
+
+    /* font-size: 0.24rem; */
+    /* text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-weight: bold; */
+
+}
+header ul li:nth-child(1) .back{
+    width: 0.6rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: orange;
+    font-weight: bold;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0.2rem;
+
+}
+header ul li:nth-child(2){
+    height: 0.4rem;
+    font-size: 0.24rem;
+    padding-left: 0.6rem;
+    display: flex;
+    flex-direction: row;
+
+}
+header ul li:nth-child(2) .adress{
+    width: 0.72rem;
+    height: 0.3rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.3rem;
+    border-radius: 0.15rem;
+    color: #fff;
+    background-color: #ff0042;
+    margin-left: 0.2rem;
+}
+header ul li:nth-child(3){
+    padding-left: 0.6rem;
+    font-size: 0.34rem;
+}
+header ul li:nth-child(4){
+    margin-top: 0.1rem;
+    padding-left: 0.6rem;
+    font-size: 0.24rem;
+}
+header ul li:nth-child(5){
+    width: 6.6rem;
+    height: 10.24rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    background-image: url('../img/37.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #606060;
+}
+header ul li:nth-child(5) p{
+    color: #dfdfdf;
+}
+header ul li:nth-child(5) .disan{
+    margin-top: 1.2rem;
+}
+header ul li:nth-child(5) .qita{
+    margin-top: 1.8rem;
+}
+header ul li:nth-child(5) .yinghangka{
+    width: 6.2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.26rem;
+    padding: 0.2rem 0;
+    box-shadow: 0 0 0.08rem 0.04rem rgba(210, 210, 210, 0.6);
+}
+header ul li:nth-child(5) .yinghangka .ka{
+    width: 0.64rem;
+    height: 0.64rem;
+}
+header ul li:nth-child(5) .yinghangka .text{
+    text-align: left;
+}
+header ul li:nth-child(5) .yinghangka .text p:nth-child(1){
+    font-size: 0.24rem;
+    color: #999;
+}
+header ul li:nth-child(5) .yinghangka .two{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+header ul li:nth-child(5) .queren{
+    width: 6.2rem;
+    height: 0.74rem;
+    border-radius: 0.37rem;
+    background-color: #ff0042;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+    padding: 0.1rem;
+
+}
+header ul li:nth-child(5) .queren p:nth-child(1){
+    font-size: 0.24rem;
+    color: #fff;
+}
+header ul li:nth-child(5) .queren p:nth-child(2){
+    font-size: 0.18rem;
+    color: #fff;
+}
