@@ -2,7 +2,7 @@
 * @Author: che
 * @Date:   2018-08-08 14:02:01
 * @Last Modified by:   che
-* @Last Modified time: 2018-09-16 16:18:15
+* @Last Modified time: 2018-09-29 14:23:44
 */
 *{
 	margin: 0;
@@ -452,28 +452,40 @@ nav main ul li img{
 footer{
 	margin-top: 0.5rem;
 	width: 100%;
-	background-image: url('../img/18.png');
+	height: 1.2rem;
+	/* background-image: url('../img/18.png'); */
+	/* box-shadow:  */
+	box-shadow: 0 0.06rem 0.2rem  0.06rem orange;
+	background-color: #fff;
 	position: fixed;
-	bottom: 0;
+	bottom: -0.02rem;
 	margin: 0 auto;
 
 
 }
 footer .bottom{
 	width: 7rem;
-	height: 1.2rem;
+	height: 1.21rem;
 	
 	margin: 0 auto;
-	padding-top: 0.2rem;
+	/* padding-top: 0.2rem; */
 }
 footer .bottom ul{
 	display: flex;
 	flex-direction: row;
 }
+footer .bottom ul a{
+	width: 25%;
+	height: 100%;
+	/* display: block; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 footer .bottom ul li{
 	width: 25%;
 	height: 1rem;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -493,16 +505,16 @@ footer .bottom ul li .faxian{
 	height: 0.4rem;
 }
 footer .bottom ul li .dingdan{
-	width: 0.36rem;
+	width: 0.4rem;
 	height: 0.4rem;
 }
 footer .bottom ul li .wode{
-	width: 0.38rem;
+	width: 0.4rem;
 	height: 0.4rem;
 }
 footer .bottom ul li span{
-	width: 0.36rem;
+	/* width: 0.36rem; */
 	height: 0.24rem;
 	font-size: 0.18rem;
-	margin-top: 0.1rem;
+	margin-top: 0.04rem;
 }
